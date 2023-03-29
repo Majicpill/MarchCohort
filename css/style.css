@@ -1,6 +1,6 @@
 /* creating external css file, applying divs & spans, classes and box model - Margin, Border & Padding*/
 body {
-    background-color: beige;
+    background-color: rgb(255, 255, 230);
     color: #808080;
     font-size: 21px;
 }
@@ -29,7 +29,7 @@ color: #808080;
 }
 
 div {
-    background-color: beige;
+    background-color: rgb(255, 255, 236);
     width: 450px;
 }
 
@@ -38,11 +38,11 @@ span {
 }
 
 .p1-section {
-    background: 	#fffafa;
+    background: rgb(255, 255, 236);
 }
 
 .p2-section {
-    background: rgb(249, 241, 228);
+    background: rgb(255, 255, 236);
 }
 
 /* css box model
