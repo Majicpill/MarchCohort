@@ -42,9 +42,26 @@ span {
 }
 
 .p2-section {
-    background: blanchedalmond;
+    background: rgb(249, 241, 228);
 }
 
-.p3-section {
-    background: bisque;
+/* css box model
+Margin:
+Border:
+Padding:
+   */
+.box {
+    background: rgb(255, 255, 236);
+    width: 450px;
+
+    margin: 20px;
+
+    border: 5px solid gray;
+
+          /* Top, Right, Bottom, Left */
+    padding: 3px  20px   3px     20px; 
+
+    /* 450px box + left & right 20px/20px padding, 
+    border left & right 5px/5px, left & right 20px/20px margin. 
+    total width of the box is 540px. important for mutiple boxes*/
 }
