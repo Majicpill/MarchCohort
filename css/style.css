@@ -1,0 +1,50 @@
+/* creating external css file, applying divs & spans, classes and box model - Margin, Border & Padding*/
+body {
+    background-color: beige;
+    color: #808080;
+    font-size: 21px;
+}
+
+p {
+    color: #696969;
+}
+
+.intro {
+    font-size: 20px;
+    color: palevioletred;
+}
+h1 {
+    font-size: 50px;
+    color: #808080;
+}
+
+h2 {
+    font-size: 28px;
+    color: #808080;
+}
+
+h3 {
+font-size: 23px;
+color: #808080;
+}
+
+div {
+    background-color: beige;
+    width: 450px;
+}
+
+span {
+    color: #696969;
+}
+
+.p1-section {
+    background: 	#fffafa;
+}
+
+.p2-section {
+    background: blanchedalmond;
+}
+
+.p3-section {
+    background: bisque;
+}
