@@ -1,7 +1,7 @@
 /* creating external css file, applying divs & spans, classes and box model - Margin, Border & Padding*/
 body {
     background-color: #f8f9fa;
-    color: #6c757d;
+    color: rgb(117, 117, 117);
     font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -13,21 +13,21 @@ p {
 h1 {
     font-size: 50px; 
     width: 50%;
-    margin: 20px;
+    margin: 0px;
     padding: 20px;
-    border: 2px solid gray;
+    
 }
 
 h2 {
     font-size: 28px;
     width: 50%;
     margin: 20px;
-    padding: 20px;
-    border: 2px solid gray;
+    padding: 5px;
+    border-bottom: 2px solid gray;
 }
 
 h3 {
-font-size: 22px;
+font-size: 20px;
 }
 
 /* css box model
@@ -39,7 +39,7 @@ Padding:
     background: #f8f9fa;
     width: 50%;
 
-    margin: 20px;
+    margin: 0px;
 
           /* Top, Right, Bottom, Left */
     padding: 3px  20px   3px     20px; 
@@ -53,7 +53,7 @@ Padding:
     background: #f8f9fa;
     width: 50%;
 
-    margin: 20px;
+    margin: 0px;
 
           /* Top, Right, Bottom, Left */
     padding: 3px  20px   3px     20px; 
@@ -66,11 +66,34 @@ Padding:
     
 }
 .box4 {
-    background: #bbfeff;
+    background: #d1d1d1;
     width: 50%;
     font-size: 15px;
     margin: 20px;
 
           /* Top, Right, Bottom, Left */
     padding: 3px  20px   3px     20px; 
+}
+
+#nav-elements {
+    display:block;
+    padding: 10px 10px; 
+    margin: 0px;
+    background-color: gray;
+}
+
+#navbar {
+    display: flex;
+    background-color: gray;
+    margin: 20px;
+}
+
+a {
+color: white;
+text-decoration: none;
+
+}
+
+#nav-elements:hover{
+    background-color: rgb(0, 157, 255);
 }
