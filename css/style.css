@@ -6,24 +6,34 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+div {
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+margin: 10px 0px;
+float: left;
+}
+
 p {
     color: #696969;
 }
 
 h1 {
-    font-size: 50px; 
-    width: 50%;
+    font-size: 60px; 
+    width: auto;
     margin: 0px;
     padding: 20px;
+    text-align: center;
     
 }
 
 h2 {
     font-size: 28px;
-    width: 50%;
+    color: gray;
+    width: auto;
     margin: 20px;
-    padding: 5px;
+    padding-bottom: 8px;
     border-bottom: 2px solid gray;
+
 }
 
 h3 {
@@ -37,9 +47,9 @@ Padding:
    */
 .box1 {
     background: #f8f9fa;
-    width: 50%;
-
-    margin: 0px;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 0px;
 
           /* Top, Right, Bottom, Left */
     padding: 3px  20px   3px     20px; 
@@ -51,7 +61,8 @@ Padding:
 
 .box2 {
     background: #f8f9fa;
-    width: 50%;
+    font-size: 18px;
+    width: 60%;
 
     margin: 0px;
 
@@ -61,13 +72,13 @@ Padding:
 
 .box3 {
     background: #f8f9fa;
-    width: 50%;
+    width: 60%;
     margin: 20px;
     
 }
 .box4 {
-    background: #d1d1d1;
-    width: 50%;
+    background: #9acdff;
+    width: 60%;
     font-size: 15px;
     margin: 20px;
 
@@ -75,11 +86,16 @@ Padding:
     padding: 3px  20px   3px     20px; 
 }
 
+img {
+    border-image-width: auto;
+}
 #nav-elements {
     display:block;
     padding: 10px 10px; 
     margin: 0px;
     background-color: gray;
+    border-left: 2px solid #f8f9fa;
+    
 }
 
 #navbar {
@@ -96,4 +112,75 @@ text-decoration: none;
 
 #nav-elements:hover{
     background-color: rgb(0, 157, 255);
+}
+
+.profile-card {
+    background: gray;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+    width: 30%;
+    height: 385px;
+    margin-right: 20px;
+    margin-top: 120px;
+}
+
+.card-header {
+    font-size: 15px;
+    margin-bottom: 8px;
+    background-color: gray;
+    color: white;
+    
+}
+
+.card-header.card-image {
+    overflow: hidden;
+
+}
+
+.card-header.card-image > img {
+    display: block;
+    width: 100%;
+}
+.card-body {
+    font-size: 12px;
+    color: white;
+    background-color: gray;
+    
+}
+
+
+.card-footer {
+    margin-top: 8px;
+}
+
+.btn {
+    background: rgb(0, 157, 255);
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background: rgb(122, 204, 255);
+}
+
+.btn.btn-outline {
+    background: none;
+    border: 1px solid rgb(0, 157, 255);
+    color: rgb(0, 157, 255);
+}
+
+.btn.btn-outline:hover, .btn.btn-outline:focus {
+    background: rgb(195, 232, 255);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(300px, 5px));
+    gap: 2px;
+  
 }
