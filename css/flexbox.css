@@ -61,7 +61,7 @@ span-2 {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 /* flex-container .container div is the chaild of the parent (flex container) */
 .flexbox-container-3 .flexbox-items div {
