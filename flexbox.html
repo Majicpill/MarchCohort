@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXBOX</title>
 
-	<link rel="stylesheet" href="css/flexbox.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
 <!--building a site with css flexbox-->
@@ -15,84 +15,51 @@
 
         <header>
 
-			<h1>Flex News</h1>
+			<h2>Flex News</h2>
+            <link rel="stylesheet" href="css/flexbox.css">
 
             <nav>
                 <ul id="navbar">
-                    <li id="nav-elements"><a>About</a></li>
-                    <li id="nav-elements"><a>Services</a></li>
-                    <li id="nav-elements"><a>Blogs</a></li>
-                    <li id="nav-elements"><a>Contact Us</a></li>
+                    <li id="nav-elements"><a href="" target="_blank">About</a></li>
+                    <li id="nav-elements"><a href="" target="_blank">Services</a></li>
+                    <li id="nav-elements"><a href="" target="_blank">Blogs</a></li>
+                    <li id="nav-elements"><a href="" target="_blank">Contact Us</a></li>
                 </ul>
             </nav>
     
-            <h2>We <span-1>collect and curate</span-1> articles, opinions, and images from around the World.</h2>
+            <h1>We <span>collect and curate</span> articles, opinions, and images from around the World.</h1>
             
 		</header>
 
         <main>
-            
-            <div class="flexbox-container-1">
-                <h3><span-2>Bottom Line</span-2></h3>
-                <p><span-2>We deliver the news that is relevant to you</span-2></p>
+            <section>
+                <h3>Bottom Line</h3>
+                <p>We deliver the news that is relevant to you</p>
+            </section>
+
+            <h3>Our Expertise</h3>
+
+            <div class="flex-container">
+                <div><img src="img/img1.jpg"></div>
+                <div><img src="img/img2.jpg"></div>
+                <div><img src="img/img7.jpg"></div>
+                <div><img src="img/img4.jpg"></div>
+                <div><img src="img/img5.jpg"></div>
+                <div><img src="img/img7.jpg"></div>
+                <div><img src="img/img8.jpg"></div>
+                <div><img src="img/img1.jpg"></div>
             </div>
 
-            <div class="flexbox-container-2">
-                <h3>Our Expertise</h3>
-            </div>
 
-                <div class="flexbox-container-3">
-
-                    <div class="flexbox-items">
-
-                            <div class="card-1">
-                                <img src="img/img1.jpg" alt="">
-                            </div>
-
-                            <div class="card-2">
-                                <img src="img/img2.jpg" alt="">
-                            </div>
-
-                            <div class="card-3">
-                                <img src="img/img7.jpg" alt=""> 
-                            </div>
-
-                            <div class="card-4">
-                                <img src="img/img4.jpg" alt="">
-                            </div>
-
-                            <div class="card-5">
-                                <img src="img/img5.jpg" alt="">
-                            </div>
-
-                            <div class="card-6">
-                                <img src="img/img6.jpg" alt="">
-                            </div>
-
-                            <div class="card-7">
-                                <img src="img/img7.jpg" alt="">
-                            </div>
-
-                            <div class="card-8">
-                                <img src="img/img8.jpg" alt="">
-                            </div>
-
-                            <div class="card-8">
-                                <img src="img/img1.jpg" alt="">
-                            </div>
-
-                    </div>
-
-                    <div class="flexbox-container-4"> 
-                        <footer class="footer-container">
-                            <h4>Flex News</h4>
-                            <p><span3>Address: 127 Bond St, London, UK
-                               <br>Tel: 0744740189</p>
-                        </footer>
-                    </div>
-
-                </div>
-
-        </main>
+            <footer>
+                <h4>Flex News</h4>
+                <p>Address: 127 Bond St<br> 
+                    London, UK<br>
+                    Tel: 0744740189</p>
+            </footer>
         
+        </main>
+
     </body>
+
+</html>

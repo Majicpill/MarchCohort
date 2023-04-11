@@ -1,94 +1,137 @@
 
-
-#navbar {
+body{
+    width: 98%;
+    margin: auto;
+}
+nav ul {
 display: flex;
 justify-content: flex-end;
-}
-
-ul {
 list-style-type: none;
 }
 
-#nav-elements {
-    padding: 15px 10px;
+nav ul li{
+padding: 10px 15px;
 }
 
-a {
-color: black;
-text-decoration: none;
-}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    }
 
-span-1 {
+nav ul li a:hover {
+        border-bottom: 1px solid black;
+        }
+
+header span {
     color: rgb(252, 195, 9);
 }
-span-2 {
-    color: rgb(255, 255, 255);
-}
 
- /*
-    need to research how to use flexbox on 
-    this container to align text in centere and on 
-    top of each other, and on top of other containers */
-.flexbox-container-1 {
-    display: block;
+main section {
+    background-color: gray;
+    color: white;
     text-align: center;
-    margin: auto;
-    padding: 1px;
-    background-color: rgb(81, 81, 81);
-   
+    padding: 20px;
 }
 
-.flexbox-container-2 {
-    display: block;
+main {
+    background-color: rgb(252, 195, 9);;
+}
+
+main h3 {
     text-align: center;
-    margin: auto;
-    padding: 1px;
-    background-color: rgb(252, 195, 9);
 }
 
-/* flex-container is the parent container */
-.flexbox-container-3 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: rgb(252, 195, 9);
-}
-
-/* flex-container is the child of the flex-container */
-.flexbox-items {
+.flex-container {
     width: 100%;
     margin: auto;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content:center;
-    flex-direction: row-reverse;
 }
-/* flex-container .container div is the chaild of the parent (flex container) */
-.flexbox-container-3 .flexbox-items div {
-    width: 25%;
+
+.flex-container div {
     margin: 10px; 
+    padding: 10px;
+  
 }
 
 img {
     width: 100%;
 }
 
+
  /*
     need to research how to use flexbox on 
     this container to align text in centere and on 
     top of each other, and on top of other containers */
 
-.flexbox-container-4{
-    display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 5px;
-    background-color: rgb(81, 81, 81);
-}
-
-.footer-container {
+footer {
+    background-color: rgb(0, 0, 0);
     color: white;
+    padding: 5px;
+    text-align: left;
 }
 
 
-   
+
+
+
+
+/* flex-container is the child of the flex-container 
+.flexbox-items {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+/* flex-container .container div is the chaild of the parent (flex container) 
+.flexbox-container .flexbox-items div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: 10px; 
+}
+*/
+
+
+/*
+
+Responsiveness 
+
+@media only screen and (max-width: 420px) {
+    p{ color: white;
+       font-size: 24px;
+       text-align: left;
+       width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    ol li{
+        font-size: 30px;
+        list-style-type: lower-roman;
+        padding: 5px;
+    }
+
+    main div{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    main ul{
+        font-size: 24px;
+    }
+}*/
