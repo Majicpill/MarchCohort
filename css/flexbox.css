@@ -3,14 +3,20 @@ body{
     width: 98%;
     margin: auto;
 }
+
 nav ul {
-display: flex;
-justify-content: flex-end;
-list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
 }
 
+#navbar{
+    display: flex;
+  background-color: white;
+    }    
+
 nav ul li{
-padding: 10px 15px;
+    padding: 10px 15px;
 }
 
 nav ul li a {
@@ -19,8 +25,22 @@ nav ul li a {
     }
 
 nav ul li a:hover {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid  rgb(252, 195, 9);
         }
+
+#nav-elements {
+    display: block;
+    margin: 5px;
+    padding: 5px 5px;
+    background-color: white;
+   
+}
+
+#nav-elements:hover{
+    background-color:  rgb(252, 195, 9);
+}
+
+
 
 header span {
     color: rgb(252, 195, 9);
@@ -73,28 +93,6 @@ footer {
 }
 
 
-
-
-
-
-/* flex-container is the child of the flex-container 
-.flexbox-items {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
-/* flex-container .container div is the chaild of the parent (flex container) 
-.flexbox-container .flexbox-items div {
-    display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    margin: 10px; 
-}
-*/
 
 
 /*
